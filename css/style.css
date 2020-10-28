@@ -1,0 +1,696 @@
+/*-------- Color ------------*/
+.background-transparent{
+	background: transparent;
+}
+.background-primary {
+	background-color: #492791;
+}
+
+.background-secondary{
+	background-color:  #280E65;
+}
+
+.background-tertiary {
+	background-color: #0F123F;
+}
+
+.color-white{
+	color: white !important;
+}
+
+.color-primary-yellow{
+	color: #FFF970;
+}
+
+.color-primary-orange{
+	color: #FF994F;
+}
+
+.color-primary-red{
+	color: #FF4F4F;
+}
+
+.color-primary-green{
+	color: #5DFF4F;
+}
+
+.color-secondary-yellow{
+	color: #EAE686;
+}
+
+.color-secondary-orange{
+	color: #E59D69;
+}
+
+.color-secondary-red{
+	color: #E56969;
+}
+
+.color-secondary-green{
+	color: #73E569;
+}
+
+/*---------- Font -----------*/
+
+.light{
+	font-weight: 300;
+}
+
+.regular{
+	font-weight: 400;
+}
+
+.medium{
+	font-weight: 500;
+}
+
+.semi-bold{
+	font-weight: 600;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.extra-bold{
+	font-weight: 800;
+}
+
+.preformatted {
+    white-space: pre-line !important;
+}
+
+
+/*---------- Button ---------*/
+
+.without-border-radius{
+	border-radius: 0 !important;
+}
+
+/* -------- Base ------------*/
+
+* {
+	font-family: 'Poppins', sans-serif !important;
+	color: #fff; /* font utama warnanya putih */
+	overflow-x: hidden;
+}
+
+nav{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	margin-top: 10px;
+}
+
+nav .navbar-brand{
+	font-size: 28px !important;
+}
+
+nav .nav-item a{
+	font-size: 20px !important;
+}
+
+nav .nav-item button{
+	font-size: 20px !important;
+}
+
+.block{
+	display: block;
+}
+
+/*--------------------------- main ----------------------------*/
+
+.index .section-1 .welcome-box {
+	margin-top: 60px;
+}
+
+.index .section-1 .welcome-box .left{
+	padding-top: 20px;
+}
+
+.index .section-1 .welcome-box .left .title{
+	font-size: 60px;
+	line-height: 90px;
+}
+
+.index .section-1 .welcome-box .left .subtitle{
+	margin-top: 15px;
+	margin-bottom: 50px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.index .section-1 .welcome-box .left button{
+	font-size: 24px;
+	padding: 20px 30px;
+}
+
+.index .section-1 .welcome-box .right img{
+	border-radius: 0 50px 0 50px;
+	width: 400px;
+	height: 500px;
+	float: right;
+}
+
+/*section-1 responsive*/
+
+@media (max-width: 992px) { 
+	.index .section-1 .welcome-box .right{
+		display: none;
+	}
+
+	.index .section-1 .welcome-box .left{
+		text-align: center;
+		padding: 20px;
+		align-items: center;
+	}
+
+	.index .section-1 .welcome-box .left .title{
+		overflow: hidden;
+		font-size: 34px;
+		line-height: 40px;
+	}
+}
+
+.index .section-2{
+	margin-top: 40px;
+}
+
+.index .section-2 .info-box .box{
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.index .section-2 .info-box .box .box-content{
+	height: 150px;
+}
+
+.index .section-2 .info-box .box .box-content .total{
+	overflow-y: hidden;
+	font-size: 46px;
+	margin-top: 0
+}
+
+.index .section-2 .info-box .box .box-content .status{
+	margin-bottom: 0;
+}
+
+/*responsive section 2*/
+
+@media (max-width: 992px) {
+	.index .section-2 .info-box .box .box-content .total{
+		overflow-y: hidden;
+		font-size: 32px;
+		margin-top: 0
+	}
+}
+
+/* section 3 */
+
+.index .section-3 {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.index .section-3 .assesment-box .left{
+	width: 100%;
+	overflow-y: hidden;
+}
+
+.index .section-3 .assesment-box .left img{
+	width: 100%;
+	border-radius: 0 50px 0 50px;
+}
+
+.index .section-3 .assesment-box .right{
+
+	padding-top: 100px;
+}
+
+.index .section-3 .assesment-box .right .title{
+	font-size: 56px;
+	text-align: right;
+	overflow-y: hidden;
+	margin-bottom: 25px;
+}
+
+.index .section-3 .assesment-box .right .subtitle{
+	width: 79%;
+	float: right;
+	text-align: right;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.index .section-3 .assesment-box .right button{
+	font-size: 24px;
+	padding: 20px 40px;
+	float: right;
+	margin-top: 50px;
+}
+
+/* Responsice section 3*/
+@media (max-width: 992px) { 
+	.index .section-3 .assesment-box .left{
+		display: none;
+	}
+
+	.index .section-3 .assesment-box .right{
+		text-align: center;
+		padding: 20px;
+		align-items: center;
+	}
+
+	.index .section-3 .assesment-box .right .title{
+		overflow: hidden;
+		font-size: 34px;
+		line-height: 40px;
+		text-align: center;
+	}
+
+	.index .section-3 .assesment-box .right .subtitle{
+		width: 100%;
+		text-align: center;
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.index .section-3 .assesment-box .right button{
+		align-self: center;
+		font-size: 18px;
+		padding: 20px 30px;
+		float: inherit;
+		margin-top: 50px;
+	}
+
+}
+
+.index .section-4 .article-box{
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.index .section-4 .article-box .header h3{
+	font-size: 38px;
+	overflow-y: hidden;
+}
+
+.index .section-4 .article-box .header a{
+	font-size: 26px;
+	color: white;
+	text-decoration: none;
+}
+
+.index .section-4 .article-box .article-list .article-card{
+	min-height: 200px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.index .section-4 .article-box .article-list .article-card .article-body{
+	min-height: 200px;
+	padding: 30px 34px;
+}
+
+.index .section-4 .article-box .article-list .article-card .article-body .title{
+	font-size: 28px;
+	overflow-y: hidden;
+}
+
+.index .section-4 .article-box .article-list .article-card .article-body .description{
+	font-size: 16px;
+	margin-top: 17px;
+
+
+}
+
+/*section 4 responsive*/
+
+@media (max-width: 992px) { 
+	.index .section-4 .article-box .header h3{
+		font-size: 24px;
+		overflow-y: hidden;
+	}
+
+	.index .section-4 .article-box .header a{
+		font-size: 18px;
+		color: white;
+		text-decoration: none;
+		text-align: right;
+	}
+}
+
+/*----------------- Informasi Page ----------------*/
+
+.informasi .section-1 {
+
+}
+
+.informasi .section-1 .welcome-box{
+	margin-top: 60px;
+}
+
+.informasi .section-1 .welcome-box .right .title{
+	margin-top: 35px;
+	font-size: 58px;
+	overflow-y: hidden;
+	margin-bottom: 10px;
+}
+
+.informasi .section-1 .welcome-box .right .subtitle{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.informasi .section-1 .welcome-box .right button{
+	padding: 10px 30px;
+}
+
+.informasi .section-2 {
+	margin-top: 80px;
+}
+
+.informasi .section-2 .article-box .article-card{
+	cursor: pointer;
+	margin-bottom: 30px;
+	padding: 0px;
+}
+
+.informasi .section-2 .article-box .article-card .image{
+	height: 150px;
+	width: 100%;
+	overflow-y: hidden;
+}
+
+.informasi .section-2 .article-box .article-card .body{
+	padding: 30px 35px;
+}
+
+.informasi .section-2 .article-box .article-card .body h3{
+	overflow-y: hidden;
+	font-size: 24px;
+}
+
+.informasi .section-2 .article-box .article-card .body p{
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+@media (max-width: 992px) {
+	.informasi .section-1 .welcome-box .right{
+		text-align: center;
+	}
+
+	.informasi .section-2 .article-box .article-card .image{
+		display: none;
+	}
+}
+
+/*--------------- Detail Page --------------*/
+
+.detail .section-1 .article-detail{
+	margin-top: 40px;
+}
+
+.detail .section-1 .article-detail .title{
+	font-size: 60px;
+	margin-bottom: 40px;
+	overflow-y: hidden;
+}
+
+.detail .section-1 .article-detail .description{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+
+.detail .section-1 .article-detail .image{
+	padding: 0;
+	margin-bottom: 40px;
+}
+
+.detail .section-1 .article-detail .image img{
+	width: 100%;
+}
+
+/*detail responsive*/
+
+@media (max-width: 992px) {
+	.detail .section-1 .article-detail .title{
+		font-size: 36px;
+		margin-bottom: 20px;
+		overflow-y: hidden;
+	}
+	.detail .section-1 .article-detail .description{
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+}
+
+/*------------------- data page ------------*/
+
+.data .section-1 .indonesia-box {
+	margin-top: 50px;
+}
+
+.data .section-1 .indonesia-box .left .info-box {
+
+}
+
+.data .section-1 .indonesia-box .left .info-box .box{
+	margin-bottom: 30px;
+	height: 150px;
+
+}
+
+.data .section-1 .indonesia-box .left .info-box .box .box-content{
+	height: 150px;
+}
+
+.data .section-1 .indonesia-box .left .info-box .box .box-content .total{
+	font-size: 36px;
+	overflow-y: hidden;
+}
+
+.data .section-1 .indonesia-box .left .title{
+	overflow-y: hidden;
+	margin-bottom: 40px;
+}
+
+.data .section-1 .indonesia-box .right canvas{
+	margin-top: 40px;
+}
+
+/*data resonsive*/
+
+@media (max-width: 992px) {
+	.data .section-1 .indonesia-box .left .title{
+		overflow-y: hidden;
+		font-size: 34px;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+}
+
+/*------------------ Bantuan PAge -----------*/
+
+.bantuan .section-1 .header{
+	margin-top: 50px;
+	min-height: 300px;
+}
+
+.bantuan .section-1 .header .hospital{
+	min-height: 300px;
+	padding: 30px;
+	margin-bottom: 10px
+}
+
+.bantuan .section-1 .header .hospital h3{
+	margin-bottom: 15px;
+	overflow-y: hidden;
+}
+
+.bantuan .section-1 .header .hospital p{
+	
+}
+
+.bantuan .section-1 .header .hospital button{
+	margin-top: 10px;
+	padding: 10px 25px;
+}
+
+.bantuan .section-1 .header .faq{
+	height: 300px;
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 10px
+}
+
+.bantuan .section-1 .header .faq h3{
+	overflow-y: hidden;
+}
+
+.bantuan .section-1 .header .number{
+	height: 300px;
+	padding: 30px;
+	text-align: center;
+	margin-bottom: 10px
+
+}
+
+.bantuan .section-1 .header .number h3{
+	overflow-y: hidden;
+}
+
+.section-2 .message-box{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.section-2 .message-box h1{
+	margin-bottom: 25px;
+	overflow-y: hidden;
+}
+
+.section-2 .message-box textarea{
+	margin-bottom: 35px;
+	background-color: #0A0C29;
+	border:none;
+	color: white;
+	font-size: 20px;
+}
+
+.section-2 .message-box input{
+	margin-bottom: 70px;
+	height: 70px;
+	background-color: #0A0C29;
+	border:none;
+	padding-left: 30px;
+	color: white;
+	font-size: 20px;
+}
+
+.section-2 .message-box .action h3{
+	overflow-y: hidden;
+	cursor: pointer;
+}
+
+.section-2 .message-box .action button {
+	overflow-y: hidden;
+	padding: 20px 40px;
+}
+
+.section-2 .message-box .action button h3{
+	overflow-y: hidden;
+}
+
+/* responsive bantuan */
+
+
+/*--------------- Self assesment --------------*/
+
+.self-assesment .section-1 .welcome-box{
+	margin-top: 70px;
+}
+
+.self-assesment .section-1 .welcome-box .right h1{
+	overflow-y: hidden;
+	margin-top: 50px;
+	font-size: 58px;
+}
+
+.self-assesment .section-1 .welcome-box .right p{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.self-assesment .section-1 .welcome-box .right button {
+	padding: 10px 30px;
+}
+
+.self-assesment .section-1 .welcome-box .left{
+	padding-right: 50px;
+	height: 400px;
+	overflow-y: hidden;
+}
+
+.self-assesment .section-2 .assesment-box{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.self-assesment .section-2 .assesment-box .item{
+	margin-bottom: 15px;
+	padding: 30px;
+}
+
+.self-assesment .section-2 .assesment-box .item h5{
+	overflow-y: hidden;
+	line-height: 30px;
+}
+
+.self-assesment .section-2 .assesment-box .item label{
+	font-size: 20px;
+}
+
+.self-assesment .section-2 .assesment-box .action h3{
+	overflow-y: hidden;
+}
+
+.self-assesment .section-2 .assesment-box .action button {
+	overflow-y: hidden;
+	padding: 20px 40px;
+}
+
+.self-assesment .section-2 .assesment-box .action button h3{
+	overflow-y: hidden;
+}
+
+@media (max-width: 992px) {
+	.self-assesment .section-1 .welcome-box{
+		margin-top: 30px;
+	}
+	.self-assesment .section-1 .welcome-box .left{
+		display: none;
+	}
+	.self-assesment .section-1 .welcome-box .right{
+		text-align: center;
+	}
+	.self-assesment .section-1 .welcome-box .right h1{
+		font-size: 28px;
+	}
+
+	.self-assesment .section-1 .welcome-box .right p{
+		font-size: 14px;
+	}
+
+	.self-assesment .section-2 .assesment-box .item h5{
+		font-size: 14px;
+		overflow-y: hidden;
+		line-height: 20px;
+	}
+
+	.self-assesment .section-2 .assesment-box .item label{
+		font-size: 20px;
+	}
+
+	.self-assesment .section-2 .assesment-box .action h3{
+		font-size: 24px;
+		overflow-y: hidden;
+	}
+
+	.self-assesment .section-2 .assesment-box .action button {
+		overflow-y: hidden;
+		padding: 15px 35px;
+		font-size: 24px;
+	}
+
+	.self-assesment .section-2 .assesment-box .action button h3{
+		overflow-y: hidden;
+	}
+}
+
+.footer{
+	padding: 10px;
+	margin-top: 50px;
+	width: 100%;
+}
