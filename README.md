@@ -1,1 +1,1 @@
-"# kokrona" 
+i made this website just for my web design competition, and i finally won the 1st place. but, there is a story behind that. im forget about the compettition deadline, i remembered the deadline 1 day before the deadline. so i started to code and i dont sleep.. . This is the website https://kokrona.netlify.app/
